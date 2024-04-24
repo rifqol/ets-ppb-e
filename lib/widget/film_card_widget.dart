@@ -3,12 +3,7 @@ import 'package:intl/intl.dart';
 import '../model/film.dart';
 
 final _lightColors = [
-  Colors.amber.shade300,
-  Colors.lightGreen.shade300,
-  Colors.lightBlue.shade300,
-  Colors.orange.shade300,
-  Colors.pinkAccent.shade100,
-  Colors.tealAccent.shade100
+  Colors.grey.shade300,
 ];
 
 class FilmCardWidget extends StatelessWidget {
