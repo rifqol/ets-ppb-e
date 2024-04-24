@@ -47,7 +47,7 @@ class _FilmDetailPageState extends State<FilmDetailPage> {
       child: ListView(
         padding: const EdgeInsets.symmetric(vertical: 8),
         children: [
-          Image(image: ) //image masih harus di debug,
+          Image.network("https://th.bing.com/th/id/OIP.nzs6AtV0nccgvaj8WOVZGwHaJQ?rs=1&pid=ImgDetMain"), //image masih harus di debug,
           Text(
             film.title,
             style: const TextStyle(
